@@ -1,0 +1,14 @@
+[package]
+name = "bootc-client"
+license = "Apache-2.0 OR MIT"
+version = "0.1.0"
+authors = ["Timothée Ravier"]
+edition = "2021"
+
+[dependencies]
+# clap = { version = "4.5.20", features = ["derive"] }
+env_logger = "^0.11"
+log = "^0.4"
+zbus = "^5.1"
+zvariant = "^5.1"
+tokio = { version = "1", features = ["full"] }

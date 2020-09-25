@@ -1,0 +1,3 @@
+[workspace]
+members = [ "client", "daemon" ]
+resolver = "2"

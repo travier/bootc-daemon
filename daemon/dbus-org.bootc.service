@@ -1,0 +1,6 @@
+[Unit]
+Description=bootc daemon
+
+[Service]
+BusName=org.bootc
+ExecStart=/usr/libexec/bootc-daemon
