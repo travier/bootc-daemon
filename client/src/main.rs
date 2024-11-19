@@ -1,6 +1,6 @@
 #![forbid(unsafe_code)]
 
-use zbus::{Connection, Result, proxy};
+use zbus::{proxy, Connection, Result};
 
 #[proxy(
     interface = "org.bootc1",

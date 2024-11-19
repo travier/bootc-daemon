@@ -7,9 +7,9 @@ extern crate log;
 // use failure::{Fallible, ResultExt};
 use log::LevelFilter;
 // use std::error::Error;
-use zbus::{Connection, interface};
 use std::error::Error;
 use std::process::Command;
+use zbus::{interface, Connection};
 
 // #[derive(Parser, Debug)]
 // #[command(version, about, long_about = None)]
@@ -19,9 +19,8 @@ use std::process::Command;
 //     verbose: Vec<()>
 // }
 
-
 struct Bootc1 {
-    count: u64
+    count: u64,
 }
 
 #[interface(name = "org.bootc1")]
